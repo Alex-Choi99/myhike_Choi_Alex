@@ -3,8 +3,8 @@
 // (navbar, footer, and other things) into html doc. 
 //---------------------------------------------------
 function loadSkeleton(){
-    console.log($('#navbarPlaceholder').load('./text/nav.html'));
-    console.log($('#footerPlaceholder').load('./text/footer.html'));
+    // console.log($('#navbarPlaceholder').load('./text/nav.html'));
+    // console.log($('#footerPlaceholder').load('./text/footer.html'));
 
     firebase.auth().onAuthStateChanged(function (user) {
         if (user) {                   //if the pointer to "user" object is not null, then someone is logged in
